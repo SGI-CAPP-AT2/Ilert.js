@@ -20,3 +20,4 @@ ilusLert({header:'hii',message:'great'});
 |message|`string`|your own string|use to discribe more|
 |corners|`yes/no`|yes,no|if you use `no` as corners then border radii will be deleted|
 |html|`yes/no`|yes,no|use it if you want to add html in message|
+|buttons|`array`|make array consist of the button jsons [more](#buttons)|
