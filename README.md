@@ -22,7 +22,7 @@ ilusLert({header:'hii',message:'great'});
 |html|`yes/no`|yes,no|use it if you want to add html in message|
 |buttons|`array`|make array consist of the button jsons [more](#buttons)|
 # buttons 
-```java
+```javascript
 {
 buttons:[{
     value:'my custom',
