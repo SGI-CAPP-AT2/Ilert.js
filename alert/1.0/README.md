@@ -10,4 +10,4 @@ how to get Started ?
 ```javascript
 ilusLert({header:'hii',message:'great'});
 ```
-for more read [readme file](../../readme.md)
+for more read [readme file](../../README.md)
