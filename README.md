@@ -21,3 +21,14 @@ ilusLert({header:'hii',message:'great'});
 |corners|`yes/no`|yes,no|if you use `no` as corners then border radii will be deleted|
 |html|`yes/no`|yes,no|use it if you want to add html in message|
 |buttons|`array`|make array consist of the button jsons [more](#buttons)|
+# buttons 
+```json{
+buttons:[{
+    value:'my custom',
+    handler: function (){
+    console.log('custom works');
+    }
+    }]
+}```
+|`value`|Your button will show value of button|
+|`handler`|add Event listener to the button |
