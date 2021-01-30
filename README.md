@@ -13,8 +13,7 @@ ilusLert({header:'hii',message:'great'});
 ```
 # contents
 |name|type|options|description|
-|----
-|---|---|---|
+|----|---|---|---|
 |header|`string`| your own string|use it for small description|
 |theme|`string`|warn,success, default,danger|show your intensity of message|
 |mode|`string`|Dark,light|theme for your message|
