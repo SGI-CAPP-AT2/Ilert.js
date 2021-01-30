@@ -22,7 +22,7 @@ ilusLert({header:'hii',message:'great'});
 |html|`yes/no`|yes,no|use it if you want to add html in message|
 |buttons|`array`|make array consist of the button jsons [more](#buttons)|
 # buttons 
-```json
+```java
 {
 buttons:[{
     value:'my custom',
@@ -33,4 +33,5 @@ buttons:[{
 }
 ```
 |`value`|Your button will show value of button|
+|---|---|
 |`handler`|add Event listener to the button |
