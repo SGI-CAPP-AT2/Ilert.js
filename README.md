@@ -4,7 +4,7 @@
 alerts for js web projects
 
 ***
-[Try out latest demo](https://SGI-CAPP-AT2.github.io/ilert.js/alert/1.0/demo.html)
+[Try out latest demo](https://sgi-capp-at2.github.io/Ilert.js/alert/1.0/demo.html)
 ***
 how to get Started ?
 ```html
