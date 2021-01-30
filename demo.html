@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<title>demo for ilus alerts</title>
+				<script src='app.js'></script>
+				<link rel="stylesheet" href="style.css">
+</head>
+<body>
+				<legend>header</legend>
+				<input id="h"value="my header" placeholder="header" type="text" >
+				<legend>message</legend>
+				<input id="msg" value="my msg" placeholder="msg" type="text" >
+				<legend>html</legend>
+				<select id="htm">
+				<option>			
+								No 	
+				</option>
+				<option>		
+								yes		
+				</option>
+				
+				</select>
+				<legend>mode</legend>
+				<select id="mode">
+				<option>			
+								light	
+				</option>
+				<option>		
+								dark	
+				</option>
+				</select>
+				<legend>boolClose</legend>
+				<select id="bC">
+				<option>			
+								yes
+				</option>
+				<option>		
+								no	
+				</option>
+				</select>
+				<legend>theme</legend>
+					<select id="thm">
+									
+					<option>		
+								normal
+				</option>
+				<option>			
+								warn
+				</option>
+				<option>		
+								danger
+				</option>
+				</select>
+				<legend>Effect</legend>
+					<select id="eff">
+									
+					<option>		
+							 ilus-fade
+				</option>
+				<option>			
+								ilus-zoom-in
+				</option>
+				<option>	
+								ilus-zoom-out
+				</option>
+				<option>	
+							 ilus-news
+				</option>
+				</select>
+				<legend>tap to demo</legend>
+			<button id="will">Demo</button>			
+				<textarea id="txr"></textarea>
+<script>
+				document.getElementById('will').addEventListener('click', function (){
+				console.log('clicked');
+				newDat={
+				header: document.getElementById('h').value,
+				message:document.getElementById('msg').value,
+   mode:document.getElementById('mode').value,
+   theme:document.getElementById('thm').value,
+   html:document.getElementById('htm').value,
+   boolClose:document.getElementById('bC').value,
+   effect:document.getElementById('eff').value,
+}
+ilVal=`ilusLert({
+`
+for (i=0;i<Object.keys(newDat).length;i++){
+			ilVal+='\n'Object.keys(newDat)[i]+':'+Object.values(newDat)[i]
+}
+document.getElementById('txr').value=ilVal+`
+});`;
+				ilusLert(newDat);	})
+</script>
+</body>
+</html>
