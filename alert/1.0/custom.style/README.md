@@ -32,4 +32,4 @@ ilusSetCustom(`
 ilusSetCustom(`{background:red;border:1px solid white;}`)
 </script>
 ```
-[![preview]](IMG_20210213_112623.jpg)](main/plug.js)
+[![preview](IMG_20210213_112623.jpg)](main/plug.js)
