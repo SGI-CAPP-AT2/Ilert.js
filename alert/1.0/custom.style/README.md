@@ -16,7 +16,7 @@ Preview
 ![al!=plug](IMG_20210213_111033.jpg)
 ### how to style ilert buttons ?
 ```html 
-
+<script src="https://cdn.jsdelivr.net/gh/SGI-CAPP-AT2/ilert.js/alert/1.0/custom.style/main/plug.js"></script>
 <script>
 ilusSetCustom("
 {
