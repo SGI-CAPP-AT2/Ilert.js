@@ -9,4 +9,5 @@
 <style>.a-il{color:black}</style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SGI-CAPP-AT2/ilert.js/alert/1.0/custom.style/apple.mac.css"> <!--for windows style buttons-->
 ```
-Thanks for Apple Mac button @fredsted
+Thanks for Apple Mac button [@fredsted](https://gist.github.com/fredsted)
+[![--mac--prev--](IMG_20210213_105328.jpg)](mac.cust.txt)
