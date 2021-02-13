@@ -1,0 +1,35 @@
+/* credits = https://jvjoseph.blogspot.com/2016/11/windows-style-buttons-css.html?m=1 thanks @<JoGeek/>*/
+
+.a-il {
+ float:right;
+  margin: 4px;
+  margin-top:10px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  padding: 3px 15px 3px 15px;
+  background: #f2f2f2;
+  background: -moz-linear-gradient(top, #f2f2f2 0%, #ebebeb 42%, #dddddd 47%, #cfcfcf 100%);background: -webkit-linear-gradient(top, #f2f2f2 0%, #ebebeb 42%, #dddddd 47%, #cfcfcf 100%);background: linear-gradient(to bottom, #f2f2f2 0%, #ebebeb 42%, #dddddd 47%, #cfcfcf 100%);  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#cfcfcf', GradientType=0);  transition: all 0.1s ease-in;  border: 1px solid #707070;
+}
+
+.a-il:hover,
+.a-il:focus {
+  outline: 0;
+  background: #eaf6fd;
+  background: -moz-linear-gradient(top, #eaf6fd 0%, #d9f0fc 42%, #bee6fd 47%, #bce5fc 58%, #a7d9f5 100%);
+  background: -webkit-linear-gradient(top, #eaf6fd 0%, #d9f0fc 42%, #bee6fd 47%, #bce5fc 58%, #a7d9f5 100%);
+  background: linear-gradient(to bottom, #eaf6fd 0%, #d9f0fc 42%, #bee6fd 47%, #bce5fc 58%, #a7d9f5 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#eaf6fd', endColorstr='#a7d9f5', GradientType=0);
+  border: 1px solid #3C7FB1;
+  box-shadow: 0 0 3px #A7D9F5;
+  -o-box-shadow: 0 0 3px #A7D9F5;
+  -webkit-box-shadow: 0 0 3px #A7D9F5;
+  -moz-box-shadow: 0 0 3px #A7D9F5;
+}
+
+.a-il:active {
+  box-shadow: inset 0 -1px 6px rgba(0, 0, 0, 0.2), inset 0 -0.7em #BEE6FD, 0 0 3px #A7D9F5;
+  -o-box-shadow: inset 0 -1px 6px rgba(0, 0, 0, 0.2), inset 0 -0.7em #BEE6FD, 0 0 3px #A7D9F5;
+  -webkit-box-shadow: inset 0 -1px 6px rgba(0, 0, 0, 0.2), inset 0 -0.7em #BEE6FD, 0 0 3px #A7D9F5;
+  -moz-box-shadow: inset 0 -1px 6px rgba(0, 0, 0, 0.2), inset 0 -0.7em #BEE6FD, 0 0 3px #A7D9F5;
+}
+
