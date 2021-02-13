@@ -18,10 +18,17 @@ Preview
 ```html 
 <script src="https://cdn.jsdelivr.net/gh/SGI-CAPP-AT2/ilert.js/alert/1.0/custom.style/main/plug.js"></script>
 <script>
-ilusSetCustom("
+ilusSetCustom(`
 {
 /*your custom code*/
 }
-")
+`)
+</script>
+```
+#### preview of the custom
+```javascript
+<script src="https://cdn.jsdelivr.net/gh/SGI-CAPP-AT2/ilert.js/alert/1.0/custom.style/main/plug.js"></script>
+<script>
+ilusSetCustom(`{background:red;border:1px solid white;}`)
 </script>
 ```
