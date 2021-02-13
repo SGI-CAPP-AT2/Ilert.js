@@ -11,3 +11,4 @@
 ```
 Thanks for Apple Mac button [@fredsted](https://gist.github.com/fredsted)
 [![--mac--prev--](IMG_20210213_105328.jpg)](mac.cust.txt)
+### ![al!=plug](IMG_20210213_111033.jpg)
